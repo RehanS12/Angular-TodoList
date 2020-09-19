@@ -1,0 +1,21 @@
+.todo-item-container {
+  //   width: 100%;
+  margin-left: 10px;
+  margin-right: 10px !important;
+  background-color: #efefef;
+  border-bottom: 1px dotted #111111;
+  padding: 5px 15px;
+  border-radius: 5px;
+  //   padding-right: 10px;
+}
+.is-complete {
+  text-decoration: line-through;
+}
+.del {
+  float: right;
+  background: red;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 7px;
+  cursor: pointer;
+}
